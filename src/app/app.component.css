@@ -1,0 +1,33 @@
+
+#main
+{
+	height:100%;
+	background-image:url("background.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+#Home
+{
+	background-color:lightgray;
+	border:2px black;
+	box-shadow:5px 5px 10px 5px;
+	margin-top:2%;
+	
+}
+#Donor
+{
+	background-color:lightgray;
+	border:2px black;
+	box-shadow:5px 5px 10px 5px;
+	margin-top:2%;
+	
+}
+#Donee
+{
+	background-color:lightgray;
+	border:2px black;
+	box-shadow:5px 5px 10px 5px;
+	margin-top:2%;
+	
+}

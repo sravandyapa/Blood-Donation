@@ -1,0 +1,36 @@
+<div class="container-fluid" id="main">
+
+	<div class="container mt3">
+		<div class="row">
+			<app-header></app-header>
+		</div>
+		<div class="row">
+			<app-navbar></app-navbar>
+		</div>
+		<div class="tab-content">
+			<div id="Home" class="container tab-pane active" class="row">
+				<br/>
+				<div class="col-md-6"><app-login></app-login></div>
+				<div class="col-md-6"><app-signup></app-signup></div>
+				<br/>
+			</div>
+			<div id="Donor" class="container tab-pane fade" class="row">
+				<app-donor-form></app-donor-form>
+			</div>
+			<div id="Donee" class="container tab-pane fade" class="row">
+				<app-donee-form></app-donee-form>
+			</div>
+			<div id="Admin" class="container tab-pane fade" class="row">
+				<app-admin></app-admin>
+			</div>
+			<div id="Report" class="container tab-pane fade" class="row">
+				<app-report></app-report>
+			</div>
+		</div>
+		<div class="row">
+			<app-footer></app-footer>
+		</div>
+	</div>
+	
+
+</div>
